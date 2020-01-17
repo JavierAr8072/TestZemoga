@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'javi';
+    src:  url('../fonts/javi.eot?vahlc1');
+    src:  url('../fonts/javi.eot?vahlc1#iefix') format('embedded-opentype'),
+      url('../fonts/javi.ttf?vahlc1') format('truetype'),
+      url('../fonts/javi.woff?vahlc1') format('woff'),
+      url('../fonts/javi.svg?vahlc1#javi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lbold';
+    src: url('../fonts/Lato-Bold.ttf?vahlc1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Llight';
+    src: url('../fonts/Lato-Light.ttf?vahlc1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lmed';
+    src: url('../fonts/Lato-Medium.ttf?vahlc1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lreg';
+    src: url('../fonts/Lato-Regular.ttf?vahlc1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lthin';
+    src: url('../fonts/Lato-Thin.ttf?vahlc1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'javi' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-home:before {
+    content: "\e900";
+  }
+  .icon-mic:before {
+    content: "\e91e";
+  }
+  .icon-credit-card:before {
+    content: "\e93f";
+  }
+  .icon-mobile2:before {
+    content: "\e959";
+  }
+  .icon-bubbles:before {
+    content: "\e96c";
+  }
+  .icon-circle-right:before {
+    content: "\ea42";
+  }
+  .icon-circle-left:before {
+    content: "\ea44";
+  }

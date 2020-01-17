@@ -1,0 +1,34 @@
+// colores
+$color-primary:#0074E4;
+$color-secondary: #6c6c6c;
+$color-primary-ghost: rgba(200,200,200,0.4);
+$color-secondary-ghost: rgba(140,6,6,0.6);
+$color-white: #ffffff;
+$gray: #fcfcfc;
+
+// break points
+$break-small:640px;
+$break-medium:768px;
+$break-large:1024px;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+$font-stack: 'Roboto', sans-serif;
+
+// links
+
+$primary-buttom: #8d8d8d;
+$color-active: #2a7a2a;
+
+// // buttons
+.btn-primary {
+    background: $color-primary;
+    min-width: 150px;
+}
+
+// images
+* {
+    img{
+        width: 100%;
+    } 
+} 

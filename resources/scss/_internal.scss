@@ -1,0 +1,94 @@
+#internal {
+    h2 {
+        font-size: 30px;
+        font-family: 'Lreg';
+        color: #ffffff;
+    }
+    .box-celebrity {
+        .info-vote {
+            .box-01 {
+                width: 12%;
+            }
+
+            .box-02 {
+                width: 88%;
+            }
+            .box-like-print {
+                padding: 3px;
+                width: 30px;
+                height: 30px;
+            }
+            .box-unlike-print {
+                padding: 3px;
+                width: 30px;
+                height: 30px;
+            }
+            .buttom-report {
+                font-size: 11px;
+                padding: 10px 40px;
+            }
+        }
+    }
+}
+#home {
+
+    .bannerW {
+        height: 70vh;
+        display: flex;
+        margin-top: -150px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../images/people.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        img {
+            width: 100px;
+        }
+        .imgbox {
+            width: 100px;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+
+        .inner-banner {
+            max-width: 640px;
+            margin: 0px auto;
+        }
+    }
+    .card-img-overlay-int {
+        padding: 0.93rem;
+        top: 20%;
+        position: absolute;
+        margin: 0 auto;
+        right: 0;
+    bottom: 0;
+    left: 0;
+    }
+    .box-cierre-body {
+        border-top: 1px dashed #000000;
+        padding: 30px 0px;
+    }
+
+    .buttom-doing {
+        border: 2px solid rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #000000;
+        font-family: 'Lmed';
+        text-align: center;
+        margin: 0 15px;
+        text-decoration: none;
+        padding: 10px 40px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .buttom-doing:hover {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+}
